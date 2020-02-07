@@ -1,12 +1,19 @@
 Title: A working title for your app. (Feel free to have some fun with this.)
 
 Image of the Day
+
+https://quirky-ptolemy-caba97.netlify.com/
+
 Description: 4 to 5 sentences summarizing the features, functions, and goals.
 
 People will be able to click on a button that will generate a random image from Unsplash.
 
 Wireframes: Mockups of your app on desktop, tablet, and mobile.
 I showed this to Andre during my pitch from a page of my notebook.
+
+!(wireframe)[https://i.imgur.com/TcIJ94r.jpg] format. The imageURL must be a direct link ending with the file format, such as .png.
+
+
 
 API: Which API you will be using.
 Unsplash API
