@@ -1,0 +1,93 @@
+header{
+    display:flex;
+    justify-content: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    color: white;
+
+    text-align: center;
+
+}
+div{
+    padding: 0px;
+}
+
+/* h1 refers to text content. header refers to box */
+h1{
+    border: 7px;
+    border-radius:25px;
+    border-style:solid;
+    border-color:white;
+    padding: 0px 20px;
+    margin: 30px 0 0 0;
+}
+
+body{
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    min-height: 100vh;
+  
+}
+.image-wrapper{
+    margin:50px;
+}
+.image-wrapper img{
+  display: flex;
+  border: 7px solid white; 
+  justify-content: center;
+  height: 300px;; 
+  width: 55%;
+  margin: auto;  
+  object-fit: cover;
+  border-radius: 25px;
+  
+}
+
+.button_div{
+    margin: 1em auto;
+    text-align: center;
+}
+
+button{
+    font-size: large;
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    background-color: black;
+    border: 7px solid white;
+    border-radius: 25px;
+}
+
+.photo-credits  {
+    text-align: right;
+    font-family: 'Rock Salt', cursive;
+    font-size: small; 
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .photo-credits {
+        margin-top: 250px;
+        font-size: small;
+        color: white;
+        font-weight: bold;
+    }
+    h1{
+        font-size:medium;
+    }
+    }
+    
+
+@media (max-width: 375px){
+    .image-wrapper img{
+        width: 80%;
+    }
+    .photo-credits {
+        margin-top: 50px;
+}
+}
+
+
+
+

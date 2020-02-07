@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image of the Day</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <!-- images don't take up any space. the body is only as big as whatever's in it so that it scales. -->
+    <header><h1>Image of the Day</h1></header>
+    <!-- browsers are stupid. they don't know difference b/w tags; they just "think" that it's HTML, so run! -->
+    <main>
+        <!-- divs take things and things live inside of them -->
+        <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1578641215526-983956865e39?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjExNDM3NH0" alt="">
+        </div>
+        <div class='button_div'>
+            <button class="search-btn">Get new image!</button>
+        </div>
+        <div class="photo-credits">
+            <p>Photo by Soragrit Wongsa on Unsplash</p>
+        </div>
+    </main>
+<!-- Script tags go last -->
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src= 'project.js'></script>
+</body>
+</html>
